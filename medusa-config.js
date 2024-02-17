@@ -1,7 +1,7 @@
 const dotenv = require("dotenv");
 
 let ENV_FILE_NAME = "";
-switch (process.env.NODE_ENV) {
+switch (process.env.NODE_ENV) { //teste
   case "production":
     ENV_FILE_NAME = ".env.production";
     break;
